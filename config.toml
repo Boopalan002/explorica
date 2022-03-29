@@ -1,4 +1,4 @@
-baseURL = "http://example.com/"
+baseURL = "/"
 languageCode = "en-us"
 title = "KGiSL IIM - Explorica 2K22"
 theme = "resto-hugo"
