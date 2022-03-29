@@ -1,0 +1,76 @@
+{{define "main"}}
+<body data-spy="scroll" data-target="#navbar" class="static-layout">
+       		<div class="hero">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-6 hero-left">
+                <img class="img-fluid" src='{{ "img/iim.png" | absURL }}' alt="">
+                <h1 class="display-4 mb-2">{{ .Site.Params.heroText | safeHTML }}</h1>
+                <p class="display-6 mb-2">{{ .Site.Params.tagLine | safeHTML }}</p>
+               
+                <!-- <ul class="hero-info list-unstyled d-flex text-center mb-0">
+                    <li class="border-right">
+                        <span class="fa fa-rocket fa-2x"></span>
+                        <h5>
+                            Fast Delivery
+                        </h5>
+                    </li>
+                    <li class="border-right">
+                        <span class="fab fa-envira fa-2x"></span>
+                        <h5>
+                            Fresh Food
+                        </h5>
+                    </li>
+                    <li class="">
+                        <span class="far fa-comment fa-2x"></span>
+                        <h5>
+                            24/7 Support
+                        </h5>
+                    </li>
+                </ul> -->
+            <section class="coming-soon">
+                <div class="countdown">
+                    <div class="container-day">
+                        <h4 class="day">Time</h4>
+                        <h5>Days</h5>
+                    </div>
+                    <div class="container-hour">
+                        <h4 class="hour">Time</h4>
+                        <h5>Hours</h5>
+                    </div>
+                    <div class="container-minute">
+                        <h4 class="minute">Time</h4>
+                        <h5>Minutes</h5>
+                    </div>
+                    <div class="container-second">
+                        <h4 class="second">Time</h4>
+                        <h5>Seconds</h5>
+                    </div>
+                </div>
+            </section>    
+            </div>
+            <div class="col-lg-6 hero-right">
+                <div class="owl-carousel owl-theme hero-carousel">
+                    <div class="item">
+                        <img class="img-fluid" src='{{ "img/explorica-ban1.jpg" | absURL }}' alt="">
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src='{{ "img/explorica-ban2.jpg" | absURL }}' alt="">
+                    </div>
+                    <div class="item">
+                        <img class="img-fluid" src='{{ "img/explorica-ban3.jpg" | absURL }}' alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>	
+    {{ partial "about.html" . }}	
+    
+    {{ partial "special.html" . }}
+    
+    {{ partial "team.html" . }}
+                                    
+    {{ partial "reserve.html" . }}
+
+{{ end }}

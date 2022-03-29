@@ -1,0 +1,20 @@
+baseURL = "http://example.com/"
+languageCode = "en-us"
+title = "KGiSL IIM - Explorica 2K22"
+theme = "resto-hugo"
+copyright = "&copy 2022 Explorica KGiSL IIM" # HTML tags supported
+googleAnalytics = "UA-123-45"
+disqusShortname = "yourdiscussshortname"
+
+# Theme specific configuration
+[params]
+logo = "img/explorica.png"
+enableDisqus = true # enable / disable comments for blog posts
+enableGA = true # enable / disable google analytics
+heroText = "<span style='color:#29166F;'>Explor</span><span style='color:red;'>i<span><span style='color:#29166F;'>ca<span>"
+tagLine = "Unleash Your Talent <br> Intracollege Meet 2K22"
+footerText = "Explorica 2K22"
+facebook = "https://facebook.com"
+twitter = "https://twitter.com"
+instagram = "https://instagram.com"
+

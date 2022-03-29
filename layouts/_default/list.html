@@ -1,0 +1,22 @@
+{{define "main"}}
+<section class="container">
+        <h2 class="text-center" style="color:red;font-weight:bold;">{{.Title}}</h2>
+    {{if eq .Kind "taxonomyTerm"}}
+            {{range $key, $value := .Data.Terms.Alphabetical}}
+                <span class='badge badge-dark'><a class='text-white' href='{{ "tags/" | absURL }}{{ $value.Name | lower }}'>{{ $value.Name }}</a></span>
+            {{end}}
+        {{else}}
+            <div class="container row">
+                    {{range .Pages}}
+                    <div class="container-fluid col-md-5 m-3">
+                        <h5><a style="color:#29166F;font-weight:bold;" href="{{.Permalink}}">{{ .Title }}</a></h5>
+                        {{ with .Params.tags }}
+                          {{range $i,$e:= . }}{{if ne $i 0}},{{end}} <span style="color:#F34949;font-weight:bold;font-style:italic;"
+                            href="">{{.|title}}</span>{{end}}
+                        {{ end }}
+                    </div>     
+                    {{end}}
+            </div>
+    {{end }}
+</section>
+{{end}}
