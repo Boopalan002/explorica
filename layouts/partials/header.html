@@ -6,25 +6,24 @@
     <meta name="keywords" content="{{ .Site.Params.keywords }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- External CSS -->
-    <link rel="stylesheet" href="{{ "vendor/bootstrap/bootstrap.min.css" | absURL }}" >
-    <link rel="stylesheet" href="{{ "vendor/select2/select2.min.css" | absURL }}" >
+    <link rel="stylesheet" href="{{ "/static/vendor/bootstrap/bootstrap.min.css" | absURL }}" >
+    <link rel="stylesheet" href="{{ "/static/vendor/select2/select2.min.css" | absURL }}" >
     
     <!--Don't load owl carousel in non home pages-->
     {{if .IsHome}} 
-    <link rel="stylesheet" href="{{ "vendor/owlcarousel/owl.carousel.min.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "/static/vendor/owlcarousel/owl.carousel.min.css" | absURL }}">
     {{end}}
-    <link rel="stylesheet" href="{{ "css/featherlight.min.css" | absURL }}" >
-    <link rel="stylesheet" href="{{ "css/tempusdominus-bootstrap-4.min.css" | absURL }}" >
-    <link rel="stylesheet" href="{{ "css/brands.css" | absURL }}" >
-
+    <link rel="stylesheet" href="{{ "/static/css/featherlight.min.css" | absURL }}" >
+    <link rel="stylesheet" href="{{ "/static/css/tempusdominus-bootstrap-4.min.css" | absURL }}" >
+    <link rel="stylesheet" href="{{ "/static/css/brands.css" | absURL }}" >
     <!-- Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Josefin+Sans:300,400,700">
-    <link rel="stylesheet" href="{{ "css/all.css" | absURL }}"  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ "/static/css/all.css" | absURL }}"  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ "css/style.min.css" | absURL }}" >
+    <link rel="stylesheet" href="{{ "/static/css/style.min.css" | absURL }}" >
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
-    <script src="{{ "js/modernizr.js" | absURL }}" ></script>
-    <script src="{{ "js/demo.js" | absURL }}" ></script>
+    <script src="{{ "/static/js/modernizr.js" | absURL }}" ></script>
+    <script src="{{ "/static/js/demo.js" | absURL }}" ></script>
 </head>
