@@ -24,7 +24,8 @@ h1, h2 {
   font-weight: 700; }
 
 .subheading {
-  color: #f34949; }
+  color: #f34949; 
+}
 
 .bg-white {
   background-color: #fff; }
@@ -369,8 +370,8 @@ font-weight: bold; }
 =            RESERVATION            =
 ===================================*/
 #gtco-reservation {
-  height: 650px;
-  margin-bottom: 150px; }
+  height: 250px;
+  margin-bottom: 50px; }
 
 #selectPerson + .select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 36px;
