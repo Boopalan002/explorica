@@ -3,13 +3,10 @@
  *	URL: https://gettemplates.co
  */
 @font-face{
-  src: url(fonts/cassandra.ttf);
-  font-family: cassandra;
+  src: url(fonts/CassandraPersonalUseRegular-3BjG.ttf);
+  font-family: 'Cassandra Personal Use';
 }
-@font-face{
-  src: url(fonts/aquire.otf);
-  font-family: aquire;
-}
+
 
 :root{
   --shadow:0 1px 5px rgba(104,104,104,0.5);
