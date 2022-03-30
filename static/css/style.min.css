@@ -57,7 +57,7 @@ a:hover {
   border-color: #ededed;
   background-color: #fff; }
   .boxed-page .section-padding {
-    padding-top: 65px;
+    padding-top: 45px;
     padding-bottom: 65px; }
   @media (min-width: 992px) {
     .boxed-page .section-padding {
@@ -370,7 +370,7 @@ font-weight: bold; }
 ===================================*/
 #gtco-reservation {
   height: 650px;
-  margin-bottom: 200px; }
+  margin-bottom: 150px; }
 
 #selectPerson + .select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 36px;
@@ -490,6 +490,27 @@ font-weight: bold; }
   padding-left: 90px; }
 
 /*=====  End of Special Dishes  ======*/
+#scrolltop {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s ease-in;
+	position:fixed;
+	bottom:20px;
+  right:20px;
+  background: rgba(180, 180, 180, 0.4);
+  border-radius: 50%;
+}
+
+.top-button {
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.5;
+  cursor: pointer;
+  padding: 12px;
+  color: #222;
+}
 /*==================================
 =            RESPONSIVE            =
 ==================================*/

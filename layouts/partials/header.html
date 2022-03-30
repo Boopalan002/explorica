@@ -8,7 +8,7 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="{{ "vendor/bootstrap/bootstrap.min.css" | absURL }}" >
     <link rel="stylesheet" href="{{ "vendor/select2/select2.min.css" | absURL }}" >
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Don't load owl carousel in non home pages-->
     {{if .IsHome}} 
     <link rel="stylesheet" href="{{ "vendor/owlcarousel/owl.carousel.min.css" | absURL }}">
@@ -26,4 +26,6 @@
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="{{ "js/modernizr.js" | absURL }}" ></script>
     <script src="{{ "js/demo.js" | absURL }}" ></script>
+    <script src="{{ "js/scrolltop.js" | absURL }}" ></script>
+    
 </head>

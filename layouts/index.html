@@ -1,33 +1,12 @@
 {{define "main"}}
 <body data-spy="scroll" data-target="#navbar" class="static-layout">
-       		<div class="hero">
+    <div class="hero">
       <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-lg-6 hero-left">
                 <img class="img-fluid" src='{{ "img/iim.png" | absURL }}' alt="">
                 <h1 class="display-4 mb-2">{{ .Site.Params.heroText | safeHTML }}</h1>
                 <p class="display-6 mb-2">{{ .Site.Params.tagLine | safeHTML }}</p>
-               
-                <!-- <ul class="hero-info list-unstyled d-flex text-center mb-0">
-                    <li class="border-right">
-                        <span class="fa fa-rocket fa-2x"></span>
-                        <h5>
-                            Fast Delivery
-                        </h5>
-                    </li>
-                    <li class="border-right">
-                        <span class="fab fa-envira fa-2x"></span>
-                        <h5>
-                            Fresh Food
-                        </h5>
-                    </li>
-                    <li class="">
-                        <span class="far fa-comment fa-2x"></span>
-                        <h5>
-                            24/7 Support
-                        </h5>
-                    </li>
-                </ul> -->
             <section class="coming-soon">
                 <div class="countdown">
                     <div class="container-day">
@@ -65,12 +44,17 @@
         </div>
       </div>
     </div>	
+
     {{ partial "about.html" . }}	
     
     {{ partial "special.html" . }}
-    
-    {{ partial "team.html" . }}
-                                    
+                                      
     {{ partial "reserve.html" . }}
 
+    <div id="scrolltop">
+        <a class="top-button" href="#top">&uarr;</a>
+      </div>
 {{ end }}
+
+
+

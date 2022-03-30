@@ -4,13 +4,9 @@
          	<div class="col-lg-4">
          		<div class="footer-widget pr-lg-5 pr-0">
          			<img src="{{ .Site.Params.logo | absURL }}" class="img-fluid footer-logo mb-3" alt="">
-	         		<p>{{ .Site.Params.footerText | safeHTML}}</p>
 	         		<nav class="nav nav-mastfoot justify-content-start">
 		                <a class="nav-link" href="{{.Site.Params.facebook}}">
 		                	<i class="fab fa-facebook-f"></i>
-		                </a>
-		                <a class="nav-link" href="{{.Site.Params.twitter}}">
-		                	<i class="fab fa-twitter"></i>
 		                </a>
 		                <a class="nav-link" href="{{.Site.Params.instagram}}">
 		                	<i class="fab fa-instagram"></i>
@@ -21,15 +17,12 @@
          	</div>
          	<div class="col-lg-4">
          		<div class="footer-widget px-lg-5 px-0">
-         			<h4>Open Hours</h4>
+         			<h4 style="color:red;font-weight:bold;">Contact Us</h4>
 	         		<ul class="list-unstyled open-hours">
-		                <li class="d-flex justify-content-between"><span>Monday</span><span>9:00 - 24:00</span></li>
-		                <li class="d-flex justify-content-between"><span>Tuesday</span><span>9:00 - 24:00</span></li>
-		                <li class="d-flex justify-content-between"><span>Wednesday</span><span>9:00 - 24:00</span></li>
-		                <li class="d-flex justify-content-between"><span>Thursday</span><span>9:00 - 24:00</span></li>
-		                <li class="d-flex justify-content-between"><span>Friday</span><span>9:00 - 02:00</span></li>
-		                <li class="d-flex justify-content-between"><span>Saturday</span><span>9:00 - 02:00</span></li>
-		                <li class="d-flex justify-content-between"><span>Sunday</span><span> Closed</span></li>
+		                <li class="d-flex justify-content-between"><span>Rahul M</span><span>+91 95668 32102</span></li>
+		                <li class="d-flex justify-content-between"><span>Aswath S</span><span>+91 98429 89444</span></li>
+		                <li class="d-flex justify-content-between"><span>Krithick Raj R</span><span>+91 70928 96676</span></li>
+		                <li class="d-flex justify-content-between"><span>Navin Kumar</span><span>+91 77688 84557</span></li>
 		              </ul>
          		</div>
          		
@@ -37,19 +30,19 @@
 
          	<div class="col-lg-4">
          		<div class="footer-widget pl-lg-5 pl-0">
-         			<h4>Newsletter</h4>
-	         		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-	         		<form id="newsletter">
-						<div class="form-group">
-							<input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailNewsletter" placeholder="Enter email">
-						</div>
-						<button type="submit" class="btn btn-primary w-100">Submit</button>
-					</form>
+					<h4 style="color:red;font-weight:bold;">Quick Links</h4>
+					<ul class="list-unstyled open-hours">
+					   <li class="d-flex justify-content-between"> <a class="nav-link" href="{{ .Site.BaseURL }}">Home</a></li>
+					   <li class="d-flex justify-content-between"><a class="nav-link" href="{{ .Site.BaseURL }}#gtco-about">About</a></li>
+					   <li class="d-flex justify-content-between"><a class="nav-link" href="{{ .Site.BaseURL }}#gtco-special-dishes">Events</a></li>
+					   <li class="d-flex justify-content-between"><a class="nav-link" href="{{ .Site.BaseURL }}blog">Rules</a></li>
+					   <li class="d-flex justify-content-between"><a class="nav-link" href="{{ .Site.BaseURL }}#gtco-reservation">Registration</a></li>
+					 </ul>
          		</div>
          		
          	</div>
          	<div class="col-md-12 d-flex align-items-center">
-         		<p class="mx-auto text-center mb-0">{{.Site.Copyright | safeHTML }} | Design by <a href="https://freehtml5.co/" target="_blank">FreeHTML5.co</a> | Powered by <a href="https://gohugo.io">Hugo</a></p>
+         		<p class="mx-auto text-center mb-0">{{.Site.Copyright | safeHTML }} | Design by <a href="https://explorica2k22.netlify.app/" >Explorica Team</a> | Powered by <a href="https://www.kgisliim.ac.in/" target="_blank">KGISL IIM</a></p>
          	</div>
             
         </div>
