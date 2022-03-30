@@ -1,5 +1,5 @@
 ---
-title: "Poster Making"
+title: "VII. Poster Making"
 tags: ["Fine Arts Events"]
 date: 2022-03-27T16:31:33+05:30
 draft: false
