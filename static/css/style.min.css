@@ -2,10 +2,12 @@
  *	Resto by GetTemplates.co
  *	URL: https://gettemplates.co
  */
-@font-face{
-  src: url(fonts/CassandraPersonalUseRegular-3BjG.ttf);
-  font-family: 'Cassandra Personal Use';
-}
+
+
+@import url('http://fonts.cdnfonts.com/css/cassandra-personal-use?styles=72224');
+@import url('http://fonts.cdnfonts.com/css/aquire');
+
+                
 
 
 :root{
@@ -148,10 +150,10 @@ font-weight: bold; }
     .hero {
       height: calc(100vh - 130px); } }
 .hero-left h1{
-  font-family: cassandra;
+  font-family: 'Cassandra Personal Use', sans-serif;
 }
 .hero-left p{
-  font-family: aquire;
+  font-family: 'Aquire', sans-serif;
   font-weight:bold;
   color:#29166F;                            
 }
