@@ -12,7 +12,7 @@ logo = "img/explorica.png"
 enableDisqus = true # enable / disable comments for blog posts
 enableGA = true # enable / disable google analytics
 heroText = "<span style='color:#29166F;'>Explor</span><span style='color:red;'>i<span><span style='color:#29166F;'>ca<span>"
-tagLine = "Unleash Your Talent <br> An Event for KGCAS & KITE Students"
+tagLine = "An Event for KGCAS & KITE Students"
 footerText = "Explorica 2K22"
 facebook = "https://facebook.com"
 instagram = "https://www.instagram.com/exploricaiim/"

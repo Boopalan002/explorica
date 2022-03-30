@@ -149,14 +149,14 @@ font-weight: bold; }
   @media (min-width: 992px) {
     .hero {
       height: calc(100vh - 130px); } }
-.hero-left h1{
+/* .hero-left h1{
   font-family: 'Cassandra Personal Use', sans-serif;
 }
 .hero-left p{
-  font-family: 'Aquire', sans-serif;
-  font-weight:bold;
-  color:#29166F;                            
-}
+  font-family: 'Berlin Sans FB', sans-serif;
+  font-size:30px;
+  color:#29166F;                         
+} */
 .hero-info {
   padding-top: 60px; }
   @media (min-width: 1420px) {
