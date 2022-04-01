@@ -11,7 +11,8 @@ draft: false
 2. ##### Maximum time allowed will be 1 hour 30 minutes.
 3. ##### Only one medium shall be used – Poster colors/Rock Salt/Flower petals/Saw dust/Pulses/Rice without pasting.
 4. ##### Size of RANGOLI will be 4’x’4 feet.
-5. ##### Topic/Theme will be given on the spot by judges.
+5. ##### Participants must bring their own materials.
+6. ##### Topic/Theme will be given on the spot by judges.
 
 ***
 ### ***Faculty Coordinator***

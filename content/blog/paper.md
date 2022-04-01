@@ -30,7 +30,7 @@ draft: false
 ##### ***Round 1***
 
 1. ##### An abstract must be prepared by the participants based on the research and applications you have made.
-2. ##### The abstract must be submitted by the 10th of April 2022 to the mail ID exploricaiim@gmail.com
+2. ##### The abstract must be submitted by the 08th of April 2022 to the mail ID exploricaiim@gmail.com.
 
 ##### ***Round 2***
 
