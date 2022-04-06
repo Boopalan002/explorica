@@ -1,0 +1,20 @@
+{{define "main" }}
+<section class="container">
+    {{ if eq .Section "blog"}}
+        <h2 style="color:red;">{{ .Title }}</h2>
+            <small class="text-secondary">Published on: {{.PublishDate.Format "January 2, 2006"}} | {{.ReadingTime}} minute read</small><br>
+                {{- range .Params.tags -}}
+                    <span class='badge badge-dark'><a class='text-white'>{{ . }}</a></span>
+                {{ end }}                
+            <p>{{ .Content }}</p>
+            <a href="{{ .Site.BaseURL }}#gtco-reservation" class="btn-primary mt-3" style="font-weight:bold;">Register <span><i class="fa fa-long-arrow-right"></i></span></a>
+    {{else}}
+
+    <h2 class="text-center">{{.Title}}</h2>
+    <p>{{.Content}}</p>
+    {{end}}
+    <div id="scrolltop">
+        <a class="top-button" href="#top">&uarr;</a>
+      </div>
+</section>
+{{ end }}
