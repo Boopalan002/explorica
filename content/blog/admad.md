@@ -7,9 +7,9 @@ draft: false
 ***
 ### ***Rules***
 ***
-1. ##### Each department can send 1 team either Solo or Group with maximum of 3 - 6 participants.
-2. ##### Teams shall be given 5 minutes preparation time.
-3. ##### The participating team shall be allowed to perform for 2-3 minutes.
+1. ##### Each department can send 1 team with maximum of 3 - 6 participants.
+2. ##### Teams shall be given 10 minutes preparation time.
+3. ##### The participating team shall be allowed to perform for 5-8 minutes.
 
 ***
 ### ***Faculty Coordinator***
