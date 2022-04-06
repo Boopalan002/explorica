@@ -8,7 +8,7 @@ draft: false
 ### ***Rules***
 ***
 1. ##### Each department can send 1 team with maximum of 3 - 6 participants.
-2. ##### Teams shall be given 10 minutes preparation time.
+2. ##### Team shall be given 10 minutes preparation time.
 3. ##### The participating team shall be allowed to perform for 5-8 minutes.
 
 ***
